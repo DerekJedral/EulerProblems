@@ -11,7 +11,7 @@ namespace Euler_13
         static void Main(string[] args)
         {
             int numDigits = 10;
-            string[] numbers = System.IO.File.ReadAllLines(@"C:\Users\djedral\Documents\Visual Studio 2013\Projects\Euler_13\numbers.txt");
+            string[] numbers = System.IO.File.ReadAllLines(@"number.txt");
             int[] digits = new int[numDigits];
             for (int i = 0; i < digits.Length; i++)
                 digits[i] = 0;
