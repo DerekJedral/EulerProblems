@@ -37,11 +37,11 @@ namespace Euler_8
 
 
 
-            int max = -1;
+            long max = -1;
             
             for (int i = 0; i < number.Length - blocksize+1; i++)
             { 
-                int mult = 1;
+                long mult = 1;
                 for (int j=i; j<i+blocksize; j++)
                     mult = mult * (Convert.ToInt32(number[j])-48);
                 
