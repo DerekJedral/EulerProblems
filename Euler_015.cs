@@ -14,7 +14,7 @@ namespace Euler_15
 
 
             int gridsize = dim+1;
-            int[,] grid = new int[gridsize, gridsize];
+            long[,] grid = new long[gridsize, gridsize];
             grid[0, 0] = 1;
             for (int i = 0; i < grid.GetLength(0); i++)
                 grid[i, 0] = 1;
