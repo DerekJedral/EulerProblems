@@ -20,7 +20,7 @@ namespace Euler_10
         static void Main(string[] args)
         {
             int max = 2000000;
-            int sum = 0;
+            long sum = 0;
             for (int i = 2; i < max; i++ )
                 if (isPrime(i)) sum = sum+i;
              
