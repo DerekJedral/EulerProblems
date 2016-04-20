@@ -20,7 +20,7 @@ namespace Euler_4
         }
         static void Main(string[] args)
         {
-            int numDigits = 4;
+            int numDigits = 3;
             int max = Convert.ToInt32(Math.Pow(10, numDigits)-1);
             int min = Convert.ToInt32(Math.Pow(10, numDigits-1));
             int num1=0;
