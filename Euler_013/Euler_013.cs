@@ -37,6 +37,18 @@ namespace Euler_13
                 carry = Convert.ToInt32(Math.Floor(sum / 10.0));
          
             }
+			
+			while (carry!=0)
+            {
+                int lastdigit = carry % 10;
+                carry = carry - lastdigit;
+                carry = carry / 10;
+                for (int i = digits.Length - 1; i > 0; i--)
+                    digits[i] = digits[i - 1];
+
+                digits[0] = lastdigit;
+            }
+			
             Console.WriteLine("digits are: ");
             for (int i = 0; i < digits.Length; i++)
                 Console.Write(digits[i]);
