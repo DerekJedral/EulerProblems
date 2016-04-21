@@ -19,7 +19,6 @@ namespace Euler_13
             int carry = 0;
             while(numbers[0].Length>0)
             {
-               // Console.WriteLine("number is " + numbers[0]);
                 int sum = 0;
                
 
